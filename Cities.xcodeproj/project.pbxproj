@@ -28,6 +28,15 @@
 		AC3E832B2D29819300D16FF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC3E832A2D29819300D16FF5 /* GoogleService-Info.plist */; };
 		AC3E832F2D2D9FE800D16FF5 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E832E2D2D9FE800D16FF5 /* ZoomableScrollView.swift */; };
 		AC9EC12F2CF3817200C4C7FB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC12E2CF3817200C4C7FB /* UIViewExtension.swift */; };
+		B9F490852D45B571003C9359 /* ContainerViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F490842D45B560003C9359 /* ContainerViewController+UI.swift */; };
+		B9F490872D45B584003C9359 /* ContainerViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F490862D45B575003C9359 /* ContainerViewController+Actions.swift */; };
+		B9F4908A2D45B6B1003C9359 /* ContainerViewController+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F490892D45B6A9003C9359 /* ContainerViewController+Functions.swift */; };
+		B9F4908C2D45B763003C9359 /* ContainerViewController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4908B2D45B759003C9359 /* ContainerViewController+UICollectionView.swift */; };
+		B9F490902D45B7AF003C9359 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4908F2D45B7A5003C9359 /* UIImageView+Extensions.swift */; };
+		B9F490922D45B7EB003C9359 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F490912D45B7E3003C9359 /* UIScrollView+Extensions.swift */; };
+		B9F490952D45D691003C9359 /* GlitchEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F490942D45D686003C9359 /* GlitchEffectView.swift */; };
+		B9F490972D45DB1E003C9359 /* GlitchModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F490962D45DB10003C9359 /* GlitchModifier.swift */; };
+		B9F490992D45DC5A003C9359 /* GlitchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F490982D45DC51003C9359 /* GlitchContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +65,15 @@
 		AC9EC12E2CF3817200C4C7FB /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B0F0E43FC1FF96C4FC0A0FE4 /* Pods-Cities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cities.debug.xcconfig"; path = "Target Support Files/Pods-Cities/Pods-Cities.debug.xcconfig"; sourceTree = "<group>"; };
 		B6DAF5CC98E1FCC13E821F7A /* Pods_Cities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F490842D45B560003C9359 /* ContainerViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainerViewController+UI.swift"; sourceTree = "<group>"; };
+		B9F490862D45B575003C9359 /* ContainerViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainerViewController+Actions.swift"; sourceTree = "<group>"; };
+		B9F490892D45B6A9003C9359 /* ContainerViewController+Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainerViewController+Functions.swift"; sourceTree = "<group>"; };
+		B9F4908B2D45B759003C9359 /* ContainerViewController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainerViewController+UICollectionView.swift"; sourceTree = "<group>"; };
+		B9F4908F2D45B7A5003C9359 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		B9F490912D45B7E3003C9359 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		B9F490942D45D686003C9359 /* GlitchEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchEffectView.swift; sourceTree = "<group>"; };
+		B9F490962D45DB10003C9359 /* GlitchModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchModifier.swift; sourceTree = "<group>"; };
+		B9F490982D45DC51003C9359 /* GlitchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +91,12 @@
 		0D1610172CF1BE9700DDEB8E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B9F490932D45D679003C9359 /* Animations */,
+				B9F490832D45B45B003C9359 /* ContainerViewController */,
 				AC3E832E2D2D9FE800D16FF5 /* ZoomableScrollView.swift */,
 				0D811A2A2CEF082F007D39B0 /* ForceUploadViewController.swift */,
 				0DC940852CEDE85E00A44D03 /* GallerySetupViewController.swift */,
 				0DC940832CEDB56100A44D03 /* SettingViewController.swift */,
-				0DFFF89A2CE884FD007BF5D0 /* ContainerViewController.swift */,
 				412CACE225C59849007ECDD2 /* CityDetailViewController.swift */,
 				0D1610182CF1BEC900DDEB8E /* EffectsViewController.swift */,
 				0DD5B4342CF32F67003C3659 /* AnimationViewController.swift */,
@@ -120,6 +139,7 @@
 				0DE0F8E32CF1E777009F4BA2 /* RippleLayer.swift */,
 				0D1610172CF1BE9700DDEB8E /* ViewControllers */,
 				0DF2D35D2CEECB3E00FCB2F4 /* UserDefaultHelper */,
+				B9F4908D2D45B794003C9359 /* Utils */,
 				412CACC225C44F96007ECDD2 /* AppDelegate.swift */,
 				412CACC425C44F96007ECDD2 /* SceneDelegate.swift */,
 				412CACC825C44F96007ECDD2 /* Main.storyboard */,
@@ -139,6 +159,45 @@
 				88CCEB1C0FCCEC4984195454 /* Pods-Cities.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9F490832D45B45B003C9359 /* ContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B9F4908B2D45B759003C9359 /* ContainerViewController+UICollectionView.swift */,
+				B9F490892D45B6A9003C9359 /* ContainerViewController+Functions.swift */,
+				B9F490862D45B575003C9359 /* ContainerViewController+Actions.swift */,
+				B9F490842D45B560003C9359 /* ContainerViewController+UI.swift */,
+				0DFFF89A2CE884FD007BF5D0 /* ContainerViewController.swift */,
+			);
+			path = ContainerViewController;
+			sourceTree = "<group>";
+		};
+		B9F4908D2D45B794003C9359 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B9F4908E2D45B799003C9359 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B9F4908E2D45B799003C9359 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B9F490912D45B7E3003C9359 /* UIScrollView+Extensions.swift */,
+				B9F4908F2D45B7A5003C9359 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B9F490932D45D679003C9359 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B9F490982D45DC51003C9359 /* GlitchContentView.swift */,
+				B9F490962D45DB10003C9359 /* GlitchModifier.swift */,
+				B9F490942D45D686003C9359 /* GlitchEffectView.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		E04E085AFAFC4CC3217C39DD /* Frameworks */ = {
@@ -248,20 +307,29 @@
 			files = (
 				AC9EC12F2CF3817200C4C7FB /* UIViewExtension.swift in Sources */,
 				412CACC325C44F96007ECDD2 /* AppDelegate.swift in Sources */,
+				B9F490872D45B584003C9359 /* ContainerViewController+Actions.swift in Sources */,
 				0D811A2B2CEF082F007D39B0 /* ForceUploadViewController.swift in Sources */,
 				0D1610192CF1BEC900DDEB8E /* EffectsViewController.swift in Sources */,
 				412CACDF25C45DD7007ECDD2 /* City.swift in Sources */,
 				0DFFF89B2CE884FD007BF5D0 /* ContainerViewController.swift in Sources */,
+				B9F490852D45B571003C9359 /* ContainerViewController+UI.swift in Sources */,
 				0DA27F642CF6F91800597638 /* TriggerAlertViewController.swift in Sources */,
+				B9F490972D45DB1E003C9359 /* GlitchModifier.swift in Sources */,
 				0DC940862CEDE85E00A44D03 /* GallerySetupViewController.swift in Sources */,
 				412CACD925C45C1F007ECDD2 /* CityCollectionViewCell.swift in Sources */,
+				B9F4908C2D45B763003C9359 /* ContainerViewController+UICollectionView.swift in Sources */,
 				0DC940842CEDB56100A44D03 /* SettingViewController.swift in Sources */,
 				AC3E832F2D2D9FE800D16FF5 /* ZoomableScrollView.swift in Sources */,
+				B9F4908A2D45B6B1003C9359 /* ContainerViewController+Functions.swift in Sources */,
+				B9F490952D45D691003C9359 /* GlitchEffectView.swift in Sources */,
+				B9F490922D45B7EB003C9359 /* UIScrollView+Extensions.swift in Sources */,
+				B9F490902D45B7AF003C9359 /* UIImageView+Extensions.swift in Sources */,
 				412CACE325C5984A007ECDD2 /* CityDetailViewController.swift in Sources */,
 				0DD5B4352CF32F67003C3659 /* AnimationViewController.swift in Sources */,
 				0DF2D35F2CEECB5800FCB2F4 /* UserDefaultHelper.swift in Sources */,
 				0DE0F8E42CF1E777009F4BA2 /* RippleLayer.swift in Sources */,
 				412CACC525C44F96007ECDD2 /* SceneDelegate.swift in Sources */,
+				B9F490992D45DC5A003C9359 /* GlitchContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

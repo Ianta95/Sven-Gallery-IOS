@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x2x-U2-g2E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x2x-U2-g2E">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -2254,7 +2254,9 @@
                         <outlet property="changeImageButton" destination="kjb-7p-ANC" id="71D-3C-Eny"/>
                         <outlet property="collectionView" destination="lTQ-fu-5qg" id="NlL-Ic-ZYh"/>
                         <outlet property="deleteButton" destination="j2q-sG-CtV" id="Sd3-op-mh7"/>
+                        <outlet property="generalView" destination="oCh-qi-Pir" id="iQz-tw-6hi"/>
                         <outlet property="selectButton" destination="KO7-jO-UaB" id="36q-DD-XNy"/>
+                        <outlet property="topView" destination="bpx-DV-NVl" id="6hm-Ap-WZ8"/>
                         <segue destination="HLD-wU-wXN" kind="presentation" identifier="showDetail" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Qtb-dl-MXZ"/>
                     </connections>
                 </viewController>
@@ -2292,7 +2294,7 @@
         <image name="oneByOne" width="82" height="82"/>
         <image name="settingTitle_icon" width="104.5" height="16.5"/>
         <image name="slider.vertical.3" catalog="system" width="128" height="110"/>
-        <image name="square.and.arrow.up" catalog="system" width="108" height="128"/>
+        <image name="square.and.arrow.up" catalog="system" width="110" height="128"/>
         <image name="threeByThree" width="106" height="106"/>
         <image name="trash.slash.fill" catalog="system" width="113" height="128"/>
         <image name="tutorial_icon" width="178" height="51"/>
